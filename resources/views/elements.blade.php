@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>BucolPunya</title>
+		<title>Histori Pendakian</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,9 +25,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="/">Dashboard</a></li>
-							<li><a href="/generic">Generic Page</a></li>
-							<li class="active"><a href="/elements">Elements Reference</a></li>
+							<li><a href="/">Menu Utama</a></li>
+							<li><a href="/generic">Berita</a></li>
+							<li class="active"><a href="/elements">Histori Pendakian</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>

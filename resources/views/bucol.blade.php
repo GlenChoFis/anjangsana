@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>Menu Utama</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>Climbing<br />
+						<h1>Anjangsana<br />
 						Permits</h1>
 						<p>A mountaineering permit throughout the Indonesian archipelago.</a><br />
 						<!-- and MERDEKA!!!</a>.</p> -->
@@ -30,20 +30,20 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">anjangsana </a>
+						<a href="https://www.google.co.id/maps/place/Warkop+Anjangsana/@-7.2763545,112.7550919,17z/data=!3m1!4b1!4m5!3m4!1s0x2dd7fbc9fa3e3959:0xd01b3aa3713483f5!8m2!3d-7.2763584!4d112.7572721" class="logo">Anjangsana </a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="/">Dashboard</a></li>
-							<li><a href="/generic">Generic Page</a></li>
-							<li><a href="/elements">Elements Reference</a></li>
+							<li class="active"><a href="/">Menu Utama</a></li>
+							<li><a href="/generic">Berita</a></li>
+							<li><a href="/elements">Histori Pendakian</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.facebook.com/glen.choirulfais" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/anjangsanapermits/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
@@ -54,14 +54,16 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">Tuhan Maha Baik</span>
-									<h2><a href="#">Mountain<br />
+									<span class="date">Tuhan Maha Penolong</span>
+									<h2><a href="#">Gunung<br />
 									</a></h2>
-									<p>The mountain is a higher part of the Earth's crust than the surrounding area.<br />
-									Mountains usually have steep sides that significantly expose the bedrock.<br />
-									Mountains differ from plateaus in that they have a limited peak area, mountains larger than a hill,<br />
-                                    usually have an altitude of at least 300 meters above the surrounding land.<br />
-                                    With the existence of a mountain that is the creation of the one true God we must preserve it.</p>
+									<p>Gunung adalah bagian kerak bumi yang lebih tinggi dari area di sekitarnya.<br />
+									Gunung biasanya memiliki sisi curam yang secara signifikan menyingkap batuan dasarnya<br />
+									Sebuah gunung biasanya lebih tinggi dan curam dari sebuah bukit, tetapi ada kesamaan,<br /> 
+									dan penggunaan gunung sering tergantung dari adat lokal.<br />
+									<br />
+                                    Dengan adanya gunung yang merupakan ciptaan Tuhan Yang Maha Esa<br />
+									yang sangat indah, kita harus menjaga dan melestarikannya.</p>
 								</header>
 								<a href="#" class="image main"><img src="https://i.pinimg.com/originals/8b/f2/39/8bf239d72b8f4739a5880ba8a1aa249e.jpg" alt="" /></a>
 								<ul class="actions special">
@@ -73,48 +75,48 @@
 							<section class="posts">
 								<article>
 									<header>
-										<span class="date">April 24, 2017</span>
+										<!-- <span class="date">April 24, 2017</span> -->
 										<h2><a href="#">Bromo<br />
 										Mountain</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="https://images.alphacoders.com/581/581184.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Gunung Bromo atau dalam bahasa Tengger dieja "Brama", adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia. Gunung ini memiliki ketinggian 2.329 meter di atas permukaan laut dan berada dalam empat wilayah kabupaten, yakni Kabupaten Probolinggo, Kabupaten Pasuruan, Kabupaten Lumajang, dan Kabupaten Malang.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://id.wikipedia.org/wiki/Gunung_Bromo" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 22, 2017</span>
+										<!-- <span class="date">April 22, 2017</span> -->
 										<h2><a href="#">Rinjani<br />
 										Mountain</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="https://i.pinimg.com/originals/eb/3d/f8/eb3df88b7785d101f714cfb118cc092f.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung yang merupakan gunung berapi kedua tertinggi di Indonesia dengan ketinggian 3.726 m dpl serta terletak pada lintang 8º25' LS dan 116º28' BT ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+										<li><a href="https://id.wikipedia.org/wiki/Gunung_Rinjani" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 18, 2017</span>
+										<!-- <span class="date">April 18, 2017</span> -->
 										<h2><a href="#">Merapi<br />
 										Mountain</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="https://i.natgeofe.com/n/b8d337ed-42c9-432f-bec2-2bb98d2994ae/27887.jpg?w=1200" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Gunung Merapi adalah gunung berapi di bagian tengah Pulau Jawa dan merupakan salah satu gunung api teraktif di Indonesia. Lereng sisi selatan berada dalam administrasi Kabupaten Sleman, Daerah Istimewa Yogyakarta, dan sisanya berada dalam wilayah Provinsi Jawa Tengah, yaitu Kabupaten Magelang di sisi barat, Kabupaten Boyolali di sisi utara dan timur, serta Kabupaten Klaten di sisi tenggara.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<span class="date">April 14, 2017</span>
+										<!-- <span class="date">April 14, 2017</span> -->
 										<h2><a href="#">Sumbing<br />
 										Mountain</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="https://www.exploregunung.net/wp/wp-content/uploads/2015/02/gunung-sumbing.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Gunung Sumbing adalah gunung api yang terdapat di Jawa Tengah, Indonesia. Gunung Sumbing merupakan gunung tertinggi ketiga di Pulau Jawa setelah Gunung Semeru dan Gunung Slamet. Gunung ini secara administratif terletak di tiga wilayah kabupaten, yaitu Kabupaten Magelang; Kabupaten Temanggung; dan Kabupaten Wonosobo.</p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
@@ -204,7 +206,7 @@
 								<ul class="icons alt">
 									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.instagram.com/anjangsanapermits/ class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
