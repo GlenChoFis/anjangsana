@@ -24,3 +24,7 @@ Route::get('/generic', function () {
 Route::get('/elements', function () {
     return view('elements');
 });
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
