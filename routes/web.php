@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/menuutama', function () {
     return view('bucol');
 });
 
@@ -27,4 +27,12 @@ Route::get('/elements', function () {
 
 Route::get('/welcome', function () {
     return view('welcome');
+});
+
+Route::get('/perizinan', function () {
+    return view('perizinan');
+});
+
+Route::get('/login', function () {
+    return view('login');
 });

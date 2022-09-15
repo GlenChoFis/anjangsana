@@ -28,6 +28,7 @@
 							<li><a href="/">Menu Utama</a></li>
 							<li class="active"><a href="/generic">Berita</a></li>
 							<li><a href="/elements">Histori Pendakian</a></li>
+							<li><a href="/perizinan">Perizinan</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
