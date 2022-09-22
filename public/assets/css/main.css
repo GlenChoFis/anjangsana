@@ -3235,8 +3235,8 @@ input, select, textarea {
 			height: 100%;
 			background-color: #212931;
 			background-image: url("https://images4.alphacoders.com/104/thumb-1920-1046944.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://images4.alphacoders.com/104/thumb-1920-1046944.jpg");
-			background-size: 100vw,								100vh,														100% auto;
-			background-position: center,								center,														top center;
+			background-size: 100vw,								100vw,														100% auto;
+			background-position: center,								center,													top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
