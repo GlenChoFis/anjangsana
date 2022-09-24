@@ -16,6 +16,7 @@ margin: 0;
 /* mengatur warna backgroud form */
 form{
     background: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
 }
  
 /* mengatur border dan padding class form-container */
