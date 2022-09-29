@@ -42,7 +42,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Register</button>
                 <div class="form-footer mt-2">
-                    <p> Sudah punya account? <a href="/login">Login</a></p>
+                    <p style="color:white"> Sudah punya account? <a href="/login">Login</a></p>
                 </div>
             </form>
         </section>

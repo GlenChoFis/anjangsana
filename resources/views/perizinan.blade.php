@@ -25,10 +25,10 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="/">Menu Utama</a></li>
+							<li><a href="/menuutama">Menu Utama</a></li>
 							<li><a href="/generic">Berita</a></li>
-							<li><a href="/elements">Histori Pendakian</a></li>
 							<li class="active"><a href="/perizinan">Perizinan</a></li>
+							<li><a href="/elements">Histori Pendakian</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -44,8 +44,7 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Elements<br />
-									Reference</h1>
+									<h1>PERIZINAN</h1>
 								</header>
 
 								<!-- Text stuff -->

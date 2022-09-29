@@ -27,8 +27,8 @@
 						<ul class="links">
 							<li><a href="/menuutama">Menu Utama</a></li>
 							<li class="active"><a href="/generic">Berita</a></li>
-							<li><a href="/elements">Histori Pendakian</a></li>
 							<li><a href="/perizinan">Perizinan</a></li>
+							<li><a href="/elements">Histori Pendakian</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -44,12 +44,11 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									<span class="date">Tuhan Maha Baik</span>
+									<h1>BERITA</h1>
+									<!-- <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
 									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									amet nullam sed etiam veroeros.</p> -->
 								</header>
 								<div class="image main">
 								<img src="images/pic01.jpg" alt="" /></div>
@@ -110,7 +109,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li> Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
