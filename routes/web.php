@@ -33,7 +33,7 @@ Route::get('/perizinan', function () {
     return view('perizinan');
 });
 
-Route::get('/login', function () {
+Route::get('/', function () {
     return view('login');
 });
 

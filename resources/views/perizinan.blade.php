@@ -48,7 +48,7 @@
 								</header>
 
 								<!-- Text stuff -->
-									<h2>Text</h2>
+									<!-- <h2>Text</h2>
 									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
 									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
@@ -76,10 +76,10 @@
 									</header>
 									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 
-									<hr />
+									<hr /> -->
 
 								<!-- Lists -->
-									<h2>Lists</h2>
+									<!-- <h2>Lists</h2>
 									<div class="row">
 										<div class="col-6 col-12-small">
 
@@ -128,8 +128,8 @@
 											</ul>
 
 										</div>
-									</div>
-									<h3>Definition</h3>
+									</div> -->
+									<!-- <h3>Definition</h3>
 									<dl>
 										<dt>Item 1</dt>
 										<dd>
@@ -143,9 +143,9 @@
 										<dd>
 											<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 										</dd>
-									</dl>
+									</dl> -->
 
-									<h3>Actions</h3>
+									<!-- <h3>Actions</h3>
 									<ul class="actions">
 										<li><a href="#" class="button primary">Primary</a></li>
 										<li><a href="#" class="button">Default</a></li>
@@ -167,8 +167,8 @@
 												<li><a href="#" class="button small">Small</a></li>
 											</ul>
 										</div>
-									</div>
-									<div class="row">
+									</div> -->
+									<!-- <div class="row">
 										<div class="col-6 col-12-small">
 											<ul class="actions stacked">
 												<li><a href="#" class="button primary fit">Default</a></li>
@@ -183,7 +183,7 @@
 										</div>
 									</div>
 
-									<hr />
+									<hr /> -->
 
 								<!-- Blockquote -->
 									<h2>Blockquote</h2>
@@ -192,7 +192,7 @@
 									<hr />
 
 								<!-- Table -->
-									<h2>Table</h2>
+									<!-- <h2>Table</h2>
 
 									<h3>Default</h3>
 									<div class="table-wrapper">
@@ -238,9 +238,9 @@
 												</tr>
 											</tfoot>
 										</table>
-									</div>
+									</div> -->
 
-									<h3>Alternate</h3>
+									<!-- <h3>Alternate</h3>
 									<div class="table-wrapper">
 										<table class="alt">
 											<thead>
@@ -286,10 +286,10 @@
 										</table>
 									</div>
 
-									<hr />
+									<hr /> -->
 
 								<!-- Buttons -->
-									<h2>Buttons</h2>
+									<!-- <h2>Buttons</h2>
 									<ul class="actions">
 										<li><a href="#" class="button primary">Primary</a></li>
 										<li><a href="#" class="button">Default</a></li>
@@ -316,10 +316,10 @@
 										<li><span class="button disabled">Default</span></li>
 									</ul>
 
-									<hr />
+									<hr /> -->
 
 								<!-- Form -->
-									<h2>Form</h2>
+									<h3>Formulir Perizinan</h3>
 
 									<form method="post" action="#">
 										<div class="row gtr-uniform">
@@ -332,15 +332,15 @@
 											<!-- Break -->
 											<div class="col-12">
 												<select name="demo-category" id="demo-category">
-													<option value="">- Category -</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
+													<option value="">- Gunung -</option>
+													<option value="1">Bromo</option>
+													<option value="1">Merbabu</option>
+													<option value="1">Semeru</option>
+													<option value="1">Merapi</option>
 												</select>
 											</div>
 											<!-- Break -->
-											<div class="col-4 col-12-small">
+											<!-- <div class="col-4 col-12-small">
 												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
 												<label for="demo-priority-low">Low</label>
 											</div>
@@ -351,7 +351,7 @@
 											<div class="col-4 col-12-small">
 												<input type="radio" id="demo-priority-high" name="demo-priority">
 												<label for="demo-priority-high">High</label>
-											</div>
+											</div> -->
 											<!-- Break -->
 											<div class="col-6 col-12-small">
 												<input type="checkbox" id="demo-copy" name="demo-copy">
@@ -378,7 +378,7 @@
 									<hr />
 
 								<!-- Image -->
-									<h2>Image</h2>
+									<!-- <h2>Image</h2>
 
 									<h3>Fit</h3>
 									<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
@@ -386,34 +386,34 @@
 										<div class="row gtr-50 gtr-uniform">
 											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
 											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div> -->
 											<!-- Break -->
-											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<!-- <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
 											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div> -->
 											<!-- Break -->
-											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<!-- <div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
 											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
 											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
 										</div>
-									</div>
+									</div> -->
 
-									<h3>Left &amp; Right</h3>
+									<!-- <h3>Left &amp; Right</h3>
 									<p><span class="image left"><img src="images/pic08.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
 									<p><span class="image right"><img src="images/pic09.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
 
-									<hr />
+									<hr /> -->
 
 								<!-- Box -->
-									<h2>Box</h2>
+									<!-- <h2>Box</h2>
 									<div class="box">
 										<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor.</p>
 									</div>
 
-									<hr />
+									<hr /> -->
 
 								<!-- Preformatted Code -->
-									<h2>Preformatted</h2>
+									<!-- <h2>Preformatted</h2>
 									<pre><code>i = 0;
 
 while (!deck.isInOrder()) {
@@ -427,7 +427,7 @@ print 'It took ' + i + ' iterations to sort the deck.';
 
 							</section>
 
-					</div>
+					</div> -->
 
 				<!-- Footer -->
 					<footer id="footer">
