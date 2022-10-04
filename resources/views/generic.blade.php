@@ -33,7 +33,7 @@
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.instagram.com/anjangsanapermits" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
@@ -45,7 +45,6 @@
 							<section class="post">
 								<header class="major">
 									<span class="date">Tuhan Maha Baik</span>
-									<h1>BERITA</h1>
 									<!-- <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
 									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
 									amet nullam sed etiam veroeros.</p> -->
@@ -73,7 +72,7 @@
 								<p><b>Trek Panjang, Jalur Ekstrim Khusus untuk Pendaki Profesional</b></p>
 								<div class="image main">
 								<figure>
-								<img src="https://cdn-1.timesmedia.co.id/images/2022/09/27/Pendakian-Gunung-Lawu.jpg" alt="" />
+								<img src="https://cdn-1.timesmedia.co.id/images/2022/09/27/Pendakian-Gunung-Lawu-2.jpg" alt="" />
 								<figcaption>Plang pos 1 Wukir Bayi, di jalur pendakian via Jogorogo. (Foto: Miftakul/TIMES Indonesia)</figcaption>
 								</figure>
 								</div>
@@ -138,7 +137,7 @@
 								<ul class="icons alt">
 									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.instagram.com/anjangsanapermits" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
@@ -162,4 +161,5 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
 </html>
