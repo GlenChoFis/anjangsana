@@ -29,7 +29,7 @@
         <div class="login mt-3 mb-3">
           <a href="/menuutama">Login</a>
         </div>
-        <a href="/registrasi">Register new account<br></a>
+        <a href="/registrasi">Register<br></a>
         <!-- <div class="text-center">
             <p style="color: #59238F;">Sign-Up</p>
         </div> -->

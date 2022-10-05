@@ -319,61 +319,60 @@
 									<hr /> -->
 
 								<!-- Form -->
-									<h3>Formulir Perizinan</h3>
+								<h3>Perizinan</h3>
+								<form>
+									<div class="form-group">
+										<label for="nama">Nama</label>
+										<input type="text" id="nama" class="form-control" placeholder="Masukkan Nama">
+									</div>
+									</br>
+									<div class="form-group">
+										<label for="umur">Umur</label>
+										<input type="date" id="umur" class="form-control" placeholder="Tempat, Tanggal Lahir">
+									</div>
+									</br>
+									<div class="form-group">
+										<label for="alamat">Alamat</label>
+										<input type="text" id="umur" class="form-control" placeholder=" Masukkan Alamat">
+									</div>
+									</br>
+									<div class="form-group">
+										<label for="gunung">Nama Gunung</label>
+										<select id="gunung" class="form-control">
+											<option value="">- Pilih Gunung Yang Ingin Didaki</option>
+											<option value="">Bromo</option>
+											<option value="">Merbabu</option>
+											<option value="">Merapi</option>
+											<option value="">Lawu</option>
+											<option value="">Rinjani</option>
+											<option value="">Sumbing</option>
+										</select>
+									</div>
+									</br>
 
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall">
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-											</div>
-											<!-- Break -->
-											<div class="col-12">
-												<select name="demo-category" id="demo-category">
-													<option value="">- Gunung -</option>
-													<option value="1">Bromo</option>
-													<option value="1">Merbabu</option>
-													<option value="1">Semeru</option>
-													<option value="1">Merapi</option>
-												</select>
-											</div>
-											<!-- Break -->
-											<!-- <div class="col-4 col-12-small">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="col-4 col-12-small">
-												<input type="radio" id="demo-priority-normal" name="demo-priority">
-												<label for="demo-priority-normal">Normal</label>
-											</div>
-											<div class="col-4 col-12-small">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div> -->
-											<!-- Break -->
-											<div class="col-6 col-12-small">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="col-6 col-12-small">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">I am a human</label>
-											</div>
-											<!-- Break -->
-											<div class="col-12">
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-											<!-- Break -->
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" class="primary" /></li>
-													<li><input type="reset" value="Reset" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<div class="form-group">
+										<label for="contohupload1">Foto KTP</label>
+										<input type="file" class="form-control-file" id="contohupload1">
+									</div>
+									
+									<br/>
+
+									<div class="form-group">
+										<label for="contohupload1">Foto Surat Keterangan Sehat</label>
+										<input type="file" class="form-control-file" id="contohupload2">
+									</div>
+									
+									<br/>
+
+									<div class="form-group">
+										<label for="contohupload1">Foto Surat Pernyataan Pendakian</label>
+										<input type="file" class="form-control-file" id="contohupload3">
+									</div>
+									
+									<br/>
+									
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</form>
 
 									<hr />
 
