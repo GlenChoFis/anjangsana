@@ -14,15 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/menuutama', function () {
-    return view('bucol');
+    return view('menuutama');
 });
 
-Route::get('/generic', function () {
-    return view('generic');
+Route::get('/berita', function () {
+    return view('berita');
 });
 
-Route::get('/elements', function () {
-    return view('elements');
+Route::get('/histori', function () {
+    return view('histori');
 });
 
 Route::get('/welcome', function () {
@@ -31,6 +31,10 @@ Route::get('/welcome', function () {
 
 Route::get('/perizinan', function () {
     return view('perizinan');
+});
+
+Route::get('/status', function () {
+    return view('status');
 });
 
 Route::get('/', function () {

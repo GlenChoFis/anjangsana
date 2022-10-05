@@ -26,9 +26,10 @@
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="/menuutama">Menu Utama</a></li>
-							<li><a href="/generic">Berita</a></li>
+							<li><a href="/berita">Berita</a></li>
 							<li><a href="/perizinan">Perizinan</a></li>
-							<li class="active"><a href="/elements">Histori Pendakian</a></li>
+							<li><a href="/status">Status Perizinan</a></li>
+							<li class="active"><a href="/histori">Histori Pendakian</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -44,47 +45,49 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Histori Pendakian</h1>
+									<h2>
+										<a href="#">Histori Pendakian<br /></a>
+									</h2>
 								</header>
 
-								<h2>Table</h2>
+								<!-- <h2>Table</h2> -->
 
-									<h3>Default</h3>
+									<!-- <h3>Default</h3> -->
 									<div class="table-wrapper">
 										<table>
 											<thead>
 												<tr>
 													<th>Nama Gunung</th>
 													<th>Tanggal Pendakian</th>
-													<th>Price</th>
+													<th>Jumlah Hari Pendakian</th>
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
 													<td>Bromo</td>
 													<td>22 Desember 2015</td>
-													<td>29.99</td>
+													<td>1 Hari</td>
 												</tr>
 												<tr>
 													<td>Semeru</td>
 													<td>22 Desember 2016</td>
-													<td>19.99</td>
+													<td>4 Hari</td>
 												</tr>
 												<tr>
 													<td>Merapi</td>
 													<td>22 Desember 2017</td>
-													<td>29.99</td>
+													<td>2 Hari</td>
 												</tr>
-												<tr>
+												<!-- <tr>
 													<td>Lawu</td>
 													<td>22 Desember 2018</td>
-													<td>19.99</td>
+													<td>3 Hari</td>
 												</tr>
 												<tr>
 													<td>Merbabu</td>
 													<td>22 Desember 2019</td>
 													<td>29.99</td>
-												</tr>
+												</tr> -->
 											</tbody>
 											<!-- <tfoot>
 												<tr>
@@ -102,7 +105,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<!-- <form method="post" action="#">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -120,10 +123,10 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</form>
+							</form> -->
 						</section>
 						<section class="split contact">
-							<section class="alt">
+							<!-- <section class="alt">
 								<h3>Address</h3>
 								<p>1234 Somewhere Road #87257<br />
 								Nashville, TN 00000-0000</p>
@@ -135,7 +138,7 @@
 							<section>
 								<h3>Email</h3>
 								<p><a href="#">info@untitled.tld</a></p>
-							</section>
+							</section> -->
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">

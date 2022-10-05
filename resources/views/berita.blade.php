@@ -26,9 +26,10 @@
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="/menuutama">Menu Utama</a></li>
-							<li class="active"><a href="/generic">Berita</a></li>
+							<li class="active"><a href="/berita">Berita</a></li>
 							<li><a href="/perizinan">Perizinan</a></li>
-							<li><a href="/elements">Histori Pendakian</a></li>
+							<li><a href="/status">Status Perizinan</a></li>
+							<li><a href="/histori">Histori Pendakian</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -98,7 +99,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<!-- <form method="post" action="#">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -116,10 +117,10 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</form>
+							</form> -->
 						</section>
 						<section class="split contact">
-							<section class="alt">
+							<!-- <section class="alt">
 								<h3>Address</h3>
 								<p>1234 Somewhere Road #87257<br />
 								Nashville, TN 00000-0000</p>
@@ -131,7 +132,7 @@
 							<section>
 								<h3>Email</h3>
 								<p><a href="#">info@untitled.tld</a></p>
-							</section>
+							</section> -->
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
