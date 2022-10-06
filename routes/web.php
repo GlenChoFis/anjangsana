@@ -45,3 +45,15 @@ Route::get('/', function () {
 Route::get('/registrasi', function () {
     return view('registrasi');
 });
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/adminupdateberita', function () {
+    return view('adminupdateberita');
+});
+
+Route::get('/adminupdatestatus', function () {
+    return view('adminupdatestatus');
+});
