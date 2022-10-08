@@ -57,3 +57,7 @@ Route::get('/adminupdateberita', function () {
 Route::get('/adminupdatestatus', function () {
     return view('adminupdatestatus');
 });
+
+Route::get('/cek1', function () {
+    return view('cek1');
+});

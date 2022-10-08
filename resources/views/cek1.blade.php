@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Perizinan</title>
+		<title>Admin Anjangsana</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,17 +14,13 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Anjangsana</a>
+						<a href="index.html" class="logo">Admin Anjangsana</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="/menuutama">Menu Utama</a></li>
-							<li><a href="/berita">Berita</a></li>
-							<li class="active"><a href="/perizinan">Perizinan</a></li>
-							<li><a href="/status">Status Perizinan</a></li>
-							<li><a href="/histori">Histori Pendakian</a></li>
+                            <li class="active"><a href="/admin">Verifikasi Perizinan</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -43,55 +34,22 @@
 					<div id="main">
 
 						<!-- Post -->
-							<section class="post">
-								<!-- <header class="major">
-									<h1>PERIZINAN</h1>
-								</header> -->
-
-								<!-- Blockquote -->
-								<header class="major">
-									<h2><a href="#">Perizinan<br />
-									</a></h2>
-								</header>
-																	
-								<!-- Buttons -->
-									<!-- <h2>Buttons</h2>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary large">Large</a></li>
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions fit">
-										<li><a href="#" class="button primary fit">Fit</a></li>
-										<li><a href="#" class="button fit">Fit</a></li>
-									</ul>
-									<ul class="actions fit small">
-										<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-										<li><a href="#" class="button fit small">Fit + Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-search">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Primary</span></li>
-										<li><span class="button disabled">Default</span></li>
-									</ul>
-
-									<hr /> -->
+                        <section class="post">			
 
 								<!-- Form -->
-								<t>Silahkan isi data-data berikut sebagai persyaratan pendakian : 
+								<t>Verifikasi data-data berikut : 
 								</br>	
 								</t>
 								<form>
 									<div class="form-group">
 										<label for="nama">Nama</label>
-										<input type="text" id="nama" class="form-control" placeholder="Masukkan Nama">
+										<input type="text" id="nama" class="form-control" value="M Arif" disabled>                                   
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Default checkbox
+                                            </label>
+                                        </div>
 									</div>
 									</br>
 									<div class="form-group">
