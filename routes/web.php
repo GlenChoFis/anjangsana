@@ -37,7 +37,7 @@ Route::get('/status', function () {
     return view('status');
 });
 
-Route::get('/', function () {
+Route::get('/login', function () {
     return view('login');
 });
 
@@ -60,4 +60,8 @@ Route::get('/adminupdatestatus', function () {
 
 Route::get('/cek1', function () {
     return view('cek1');
+});
+
+Route::get('/profil', function () {
+    return view('profil');
 });
