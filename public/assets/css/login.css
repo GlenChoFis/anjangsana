@@ -124,13 +124,13 @@ body  {
   }
   
   .login a:hover{
-    background-color: #4f93ff;
+    background-color: #007bff;
     height: 45px;
     transition: .2s ease-in-out;
   }
 
   .loginBox a{
-    color: #4008cf;
+    color: #007bff;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
