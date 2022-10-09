@@ -43,52 +43,21 @@
 									</h3>
 								</header>
 
-								<!-- <h2>Table</h2> -->
-
 									<!-- <h3>Default</h3> -->
 									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Nama Perizin</th>
-													<th>Tanggal Perizinan</th>
-													<th>Verifikasi</th>                                                  
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>M Arif</td>
-													<td>22 Desember 2015</td>
-													<td><a href="#">Cek</a></td>                                                   
-												</tr>
-												<tr>
-													<td>Glen C F</td>
-													<td>22 Desember 2016</td>
-													<td><a href="#">Cek</a></td> 
-												</tr>
-												<tr>
-													<td>Fais M A</td>
-													<td>22 Desember 2017</td>
-													<td><a href="#">Cek</a></td>
-												</tr>
-												<!-- <tr>
-													<td>Lawu</td>
-													<td>22 Desember 2018</td>
-													<td>3 Hari</td>
-												</tr>
-												<tr>
-													<td>Merbabu</td>
-													<td>22 Desember 2019</td>
-													<td>29.99</td>
-												</tr> -->
-											</tbody>
-											<!-- <tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot> -->
-										</table>
+										<div class="form-outline">
+											<textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+											<label class="form-label" for="textAreaExample"></label>
+										</div>
+										
+									</div>
+
+									</br>
+
+									<div>
+									<header class="major">
+									<button type="edit" class="btn btn-primary">Edit</button>
+									</header>
 									</div>
 
 							</section>

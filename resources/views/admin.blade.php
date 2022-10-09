@@ -59,17 +59,17 @@
 												<tr>
 													<td>M Arif</td>
 													<td>22 Desember 2015</td>
-													<td><a href="/cek1">Cek</a></td>                                                   
+													<td><a href="/cek">Cek</a></td>                                                   
 												</tr>
 												<tr>
 													<td>Glen C F</td>
 													<td>22 Desember 2016</td>
-													<td><a href="/cek2">Cek</a></td> 
+													<td><a href="/cek">Cek</a></td> 
 												</tr>
 												<tr>
 													<td>Fais M A</td>
 													<td>22 Desember 2017</td>
-													<td><a href="/cek3">Cek</a></td>
+													<td><a href="/cek">Cek</a></td>
 												</tr>
 												<!-- <tr>
 													<td>Lawu</td>

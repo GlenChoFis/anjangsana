@@ -50,37 +50,113 @@
 										<table>
 											<thead>
 												<tr>
-													<th>Nama Perizin</th>
-													<th>Tanggal Perizinan</th>
-													<th>Verifikasi</th>                                                  
+													<th>Nama Gunung</th>
+													<th>Status Gunung</th>                                                  
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
-													<td>M Arif</td>
-													<td>22 Desember 2015</td>
-													<td><a href="#">Cek</a></td>                                                   
-												</tr>
-												<tr>
-													<td>Glen C F</td>
-													<td>22 Desember 2016</td>
-													<td><a href="#">Cek</a></td> 
-												</tr>
-												<tr>
-													<td>Fais M A</td>
-													<td>22 Desember 2017</td>
-													<td><a href="#">Cek</a></td>
-												</tr>
-												<!-- <tr>
-													<td>Lawu</td>
-													<td>22 Desember 2018</td>
-													<td>3 Hari</td>
+													<td>Bromo</td>
+													<td>
+														<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+														<label class="form-check-label" for="flexRadioDefault1">
+															Boleh didaki
+														</label>
+														</div>
+														<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2" checked>
+														<label class="form-check-label" for="flexRadioDefault2">
+															Tidak boleh didaki
+														</label>
+														</div>
+													</td>                                                   
 												</tr>
 												<tr>
 													<td>Merbabu</td>
-													<td>22 Desember 2019</td>
-													<td>29.99</td>
-												</tr> -->
+													<td>
+														<div class="form-check">
+															<input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3">
+															<label class="form-check-label" for="flexRadioDefault3">
+																Boleh didaki
+															</label>
+															</div>
+															<div class="form-check">
+															<input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault4" checked>
+															<label class="form-check-label" for="flexRadioDefault4">
+																Tidak boleh didaki
+															</label>
+														</div>
+													</td> 
+												</tr>
+												<tr>
+													<td>Merapi</td>
+													<td>
+													<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefaul3" id="flexRadioDefault5">
+														<label class="form-check-label" for="flexRadioDefault5">
+															Boleh didaki
+														</label>
+														</div>
+														<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefaul3" id="flexRadioDefault6" checked>
+														<label class="form-check-label" for="flexRadioDefault6">
+															Tidak boleh didaki
+														</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>Lawu</td>
+													<td>
+													<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault7">
+														<label class="form-check-label" for="flexRadioDefault7">
+															Boleh didaki
+														</label>
+														</div>
+														<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault8" checked>
+														<label class="form-check-label" for="flexRadioDefault8">
+															Tidak boleh didaki
+														</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>Rinjani</td>
+													<td>
+													<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault9">
+														<label class="form-check-label" for="flexRadioDefault9">
+															Boleh didaki
+														</label>
+														</div>
+														<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault5" id="flexRadioDefault10" checked>
+														<label class="form-check-label" for="flexRadioDefault10">
+															Tidak boleh didaki
+														</label>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td>Sumbing</td>
+													<td>
+													<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault6" id="flexRadioDefault11">
+														<label class="form-check-label" for="flexRadioDefault11">
+															Boleh didaki
+														</label>
+														</div>
+														<div class="form-check">
+														<input class="form-check-input" type="radio" name="flexRadioDefault6" id="flexRadioDefault12" checked>
+														<label class="form-check-label" for="flexRadioDefault12">
+															Tidak boleh didaki
+														</label>
+														</div>
+													</td>
+												</tr>
 											</tbody>
 											<!-- <tfoot>
 												<tr>

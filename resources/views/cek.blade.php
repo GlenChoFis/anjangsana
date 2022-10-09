@@ -43,38 +43,52 @@
 								<form>
 									<div class="form-group">
 										<label for="nama">Nama</label>
-										<input type="text" id="nama" class="form-control" value="M Arif" disabled>                                   
+										<input type="text" id="nama" class="form-control" placeholder="M Arif" disabled>                                   
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                                Default checkbox
-                                            </label>
-                                        </div>
+											<input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="umur">Umur</label>
-										<input type="date" id="umur" class="form-control" placeholder="Tempat, Tanggal Lahir">
+										<input type="date" id="umur" class="form-control" placeholder="22-12-2002" disabled>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="check2" name="option2" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="alamat">Alamat Tinggal</label>
-										<input type="text" id="umur" class="form-control" placeholder=" Masukkan Alamat Tinggal">
+										<input type="text" id="umur" class="form-control" placeholder=" Jl. Bringin Harapan" disabled>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="check3" name="option3" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="alamat">Nomor Telepon</label>
-										<input type="text" id="umur" class="form-control" placeholder=" Masukkan Nomor">
+										<input type="text" id="umur" class="form-control" placeholder=" 081232600907" disabled>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="check4" name="option4" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="alamat">Nomor Telepon Keluarga</label>
-										<input type="text" id="umur" class="form-control" placeholder=" Masukkan Nomor">
+										<input type="text" id="umur" class="form-control" placeholder=" 081232600907" disabled>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="check5" name="option5" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="exampleDataList" class="form-label">Pilih gunung yang ingin didaki</label>
-										<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder=" Ketik untuk mencari...">
+										<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder=" Ketik untuk mencari..." disabled>
 											<datalist id="datalistOptions">
 												<option value="Bromo">
 												<option value="Merbabu">
@@ -83,26 +97,42 @@
 												<option value="Rinjani">
 												<option value="Sumbing">
 											</datalist>
+											<div class="form-check">
+												<input class="form-check-input" type="checkbox" id="check6" name="option6" value="something" checked>
+												<label class="form-check-label">Verifikasi</label>
+											</div>
 									</div>
 									</br>
 
 									<div class="form-group">
 										<label for="contohupload1">Foto KTP</label>
-										<input type="file" class="form-control-file" id="contohupload1">
+										<input type="file" class="form-control-file" id="contohupload1" disabled>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="check7" name="option7" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									
 									<br/>
 
 									<div class="form-group">
 										<label for="contohupload1">Foto Surat Keterangan Sehat</label>
-										<input type="file" class="form-control-file" id="contohupload2">
+										<input type="file" class="form-control-file" id="contohupload2" disabled>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="check8" name="option8" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									
 									<br/>
 
 									<div class="form-group">
 										<label for="contohupload1">Foto Surat Pernyataan Pendakian</label>
-										<input type="file" class="form-control-file" id="contohupload3">
+										<input type="file" class="form-control-file" id="contohupload3" disabled>
+										<div class="form-check">
+											<input class="form-check-input" type="checkbox" id="check9" name="option9" value="something" checked>
+											<label class="form-check-label">Verifikasi</label>
+										</div>
 									</div>
 									
 									<br/>

@@ -58,6 +58,6 @@ Route::get('/adminupdatestatus', function () {
     return view('adminupdatestatus');
 });
 
-Route::get('/cek1', function () {
-    return view('cek1');
+Route::get('/cek', function () {
+    return view('cek');
 });
