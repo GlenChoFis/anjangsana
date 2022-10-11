@@ -9,6 +9,7 @@
 		<title>Menu Utama</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -46,7 +47,8 @@
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://www.facebook.com/glen.choirulfais" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/anjangsanapermits/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="/profil" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="/profil" class=""><span class="label">Profile</span></a></li>
+							<li><a href="/login" class=""><span class="label">Logout</span></a></li>
 						</ul>
 					</nav>
 
