@@ -166,9 +166,12 @@
 											</tfoot> -->
 										</table>
 									</div>
-
+									<div>
+									<header class="major">
+										<button type="update" class="btn btn-primary">Update</button>
+									</header>
+									</div>
 							</section>
-
 					</div>
 
 				<!-- Footer -->

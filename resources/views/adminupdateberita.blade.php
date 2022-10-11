@@ -56,7 +56,7 @@
 
 									<div>
 									<header class="major">
-									<button type="edit" class="btn btn-primary">Edit</button>
+									<button type="update" class="btn btn-primary">Update</button>
 									</header>
 									</div>
 
