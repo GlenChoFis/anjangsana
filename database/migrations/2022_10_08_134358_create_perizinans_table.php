@@ -14,10 +14,16 @@ return new class extends Migration
     public function up()
     {
         Schema::create('perizinan', function (Blueprint $table) {
-            $table->increments('id_perizinan');
-            $table->integer('id')->nullable()->unsigned();
-
-            $table->foreign('id', 'fk_id_user')->references('id')->on('users');
+            $table->id();
+            // $table->increments('id_perizinan');
+            // $table->integer('id')->nullable()->unsigned();
+            $table->string('nama');
+            $table->date('tanggal_lahir');
+            $table->string('alamat_tinggal');
+            $table->string('nomor_telepon');
+            $table->string('nomor_telepon_keluarga');  
+            $table->date('tanggal_pendakian');
+            $table->foreignId('id_gunung')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 

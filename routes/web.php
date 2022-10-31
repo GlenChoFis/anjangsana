@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MountainController;
+use App\Http\Controllers\gunungController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,9 +35,9 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/perizinan', function () {
-    return view('perizinan');
-});
+// Route::get('/perizinan', function () {
+//     return view('perizinan');
+// });
 
 Route::get('/status', function () {
     return view('status');
@@ -69,3 +71,9 @@ Route::get('/cek', function () {
 Route::get('/profil', function () {
     return view('profil');
 });
+
+// Route::resource('perizinan', mountainController::class);
+// Route::get('/perizinan', [mountainController::class, "index"]);
+
+// Route::resource('perizinan', gunungController::class);
+Route::get('/perizinan', [gunungController::class, 'index']);

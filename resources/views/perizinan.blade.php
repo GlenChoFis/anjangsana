@@ -54,7 +54,7 @@
 									<h2><a href="#">Perizinan<br />
 									</a></h2>
 								</header>
-																	
+
 								<!-- Buttons -->
 									<!-- <h2>Buttons</h2>
 									<ul class="actions">
@@ -86,8 +86,8 @@
 									<hr /> -->
 
 								<!-- Form -->
-								<t>Silahkan isi data-data berikut sebagai persyaratan pendakian : 
-								</br>	
+								<t>Silahkan isi data-data berikut sebagai persyaratan pendakian :
+								</br>
 								</t>
 								<form>
 									<div class="form-group">
@@ -96,8 +96,8 @@
 									</div>
 									</br>
 									<div class="form-group">
-										<label for="umur">Umur</label>
-										<input type="date" id="umur" class="form-control" placeholder="Tempat, Tanggal Lahir">
+										<label for="tanggallahir">Tanggal Lahir</label>
+										<input type="date" id="tanggallahir" class="form-control" >
 									</div>
 									</br>
 									<div class="form-group">
@@ -119,13 +119,22 @@
 										<label for="exampleDataList" class="form-label">Pilih gunung yang ingin didaki</label>
 										<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder=" Ketik untuk mencari...">
 											<datalist id="datalistOptions">
-												<option value="Bromo">
+												@foreach ($gunungs as $gunung)
+												<option value="{{ $gunung->id }}">{{ $gunung->nama_gunung }}</option>
+												@endforeach
+												{{-- <option value="Bromo">
 												<option value="Merbabu">
 												<option value="Merapi">
 												<option value="Lawu">
 												<option value="Rinjani">
-												<option value="Sumbing">
+												<option value="Sumbing"> --}}
 											</datalist>
+									</div>
+									</br>
+
+									<div class="form-group">
+										<label for="tanggalpendakian">Tanggal Pendakian</label>
+										<input type="date" id="tanggalpendakian" class="form-control">
 									</div>
 									</br>
 
@@ -133,21 +142,21 @@
 										<label for="contohupload1">Foto KTP</label>
 										<input type="file" class="form-control-file" id="contohupload1">
 									</div>
-									
+
 									<br/>
 
 									<div class="form-group">
 										<label for="contohupload1">Foto Surat Keterangan Sehat</label>
 										<input type="file" class="form-control-file" id="contohupload2">
 									</div>
-									
+
 									<br/>
 
 									<div class="form-group">
 										<label for="contohupload1">Foto Surat Pernyataan Pendakian</label>
 										<input type="file" class="form-control-file" id="contohupload3">
 									</div>
-									
+
 									<br/>
 									<div>
 									<header class="major">
