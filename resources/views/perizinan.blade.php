@@ -89,52 +89,53 @@
 								<t>Silahkan isi data-data berikut sebagai persyaratan pendakian :
 								</br>
 								</t>
-								<form>
+								<form method="post" action="/createizin">
+									@csrf
 									<div class="form-group">
 										<label for="nama">Nama</label>
-										<input type="text" id="nama" class="form-control" placeholder="Masukkan Nama">
+										<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan Nama">
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="tanggallahir">Tanggal Lahir</label>
-										<input type="date" id="tanggallahir" class="form-control" >
+										<input type="date" name="tgl_lahir" id="tanggallahir" class="form-control" >
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="alamat">Alamat Tinggal</label>
-										<input type="text" id="umur" class="form-control" placeholder=" Masukkan Alamat Tinggal">
+										<input type="text" name="alamat" id="umur" class="form-control" placeholder=" Masukkan Alamat Tinggal">
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="alamat">Nomor Telepon</label>
-										<input type="text" id="umur" class="form-control" placeholder=" Masukkan Nomor">
+										<input type="text" name="notelp" id="umur" class="form-control" placeholder=" Masukkan Nomor">
 									</div>
 									</br>
 									<div class="form-group">
 										<label for="alamat">Nomor Telepon Keluarga</label>
-										<input type="text" id="umur" class="form-control" placeholder=" Masukkan Nomor">
+										<input type="text" name="keltelp" id="umur" class="form-control" placeholder=" Masukkan Nomor">
 									</div>
 									</br>
-									<div class="form-group">
+									<!-- <div class="form-group">
 										<label for="exampleDataList" class="form-label">Pilih gunung yang ingin didaki</label>
 										<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder=" Ketik untuk mencari...">
 											<datalist id="datalistOptions">
 												@foreach ($gunungs as $gunung)
 												<option value="{{ $gunung->id }}">{{ $gunung->nama_gunung }}</option>
 												@endforeach
-												{{-- <option value="Bromo">
+												<option value="Bromo">
 												<option value="Merbabu">
 												<option value="Merapi">
 												<option value="Lawu">
 												<option value="Rinjani">
-												<option value="Sumbing"> --}}
+												<option value="Sumbing">
 											</datalist>
-									</div>
+									</div> -->
 									</br>
 
 									<div class="form-group">
 										<label for="tanggalpendakian">Tanggal Pendakian</label>
-										<input type="date" id="tanggalpendakian" class="form-control">
+										<input type="date" name="tgl" id="tanggalpendakian" class="form-control">
 									</div>
 									</br>
 

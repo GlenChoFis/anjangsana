@@ -11,9 +11,11 @@ return new class extends Migration
      *
      * @return void
      */
+    protected $table = 'perizinans';
+
     public function up()
     {
-        Schema::create('perizinan', function (Blueprint $table) {
+        Schema::create('perizinans', function (Blueprint $table) {
             $table->id();
             // $table->increments('id_perizinan');
             // $table->integer('id')->nullable()->unsigned();
@@ -23,7 +25,9 @@ return new class extends Migration
             $table->string('nomor_telepon');
             $table->string('nomor_telepon_keluarga');  
             $table->date('tanggal_pendakian');
-            $table->foreignId('id_gunung')->onUpdate('cascade')->onDelete('cascade');
+            $table->foreignId('id_gunung')->onUpdate('cascade')->onDelete('cascade')->nullable();
+            $table->timestamps();
+
         });
     }
 

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MountainController;
 use App\Http\Controllers\gunungController;
+use App\Http\Controllers\perizinanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -77,3 +78,4 @@ Route::get('/profil', function () {
 
 // Route::resource('perizinan', gunungController::class);
 Route::get('/perizinan', [gunungController::class, 'index']);
+route::post('/createizin',[perizinanController::class, 'store']);

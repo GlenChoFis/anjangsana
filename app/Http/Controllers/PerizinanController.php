@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Perizinan;
+use App\Models\tes;
 use Illuminate\Http\Request;
 
 class PerizinanController extends Controller
@@ -35,7 +36,18 @@ class PerizinanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if($request->isMethod('post')){
+            Perizinan::create([
+                'nama'=> $request->nama,
+                'tanggal_lahir'=>$request->tgl_lahir,
+                'alamat_tinggal'=>$request->alamat,
+                'nomor_telepon'=>$request->notelp,
+                'nomor_telepon_keluarga'=>$request->keltelp,
+                'tanggal_pendakian'=>$request->tgl,
+            ]);
+            return redirect('/menuutama');
+        }
+        return view('/menuutama');
     }
 
     /**
