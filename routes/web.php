@@ -78,4 +78,4 @@ Route::get('/profil', function () {
 
 // Route::resource('perizinan', gunungController::class);
 Route::get('/perizinan', [gunungController::class, 'index']);
-route::post('/createizin',[perizinanController::class, 'store']);
+route::post('/createizin',[perizinanController::class, 'insertPerizinan']);

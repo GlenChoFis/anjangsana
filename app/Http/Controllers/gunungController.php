@@ -6,6 +6,7 @@ use App\Models\Gunung;
 use App\Providers\RouteServiceProvider;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class gunungController extends Controller
 {
@@ -16,9 +17,9 @@ class gunungController extends Controller
      */
     public function index()
     {
-        return view('perizinan', [
-            "gunungs" => Gunung::all()
-        ]);
+        $gunung = DB::table('mountains')->get();
+        // dd($gunung);
+        return view('perizinan', compact('gunung'));
     }
 
     /**

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Perizinan;
 use App\Models\tes;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PerizinanController extends Controller
 {
@@ -16,6 +17,23 @@ class PerizinanController extends Controller
     public function index()
     {
         //
+    }
+
+    public function insertPerizinan(Request $request){
+        // dd($request->all());
+        DB::table('perizinan')->insert([
+            'nama' => $request->nama_lengkap,
+            'tanggal_lahir' => $request->tgl_lahir,
+            'alamat_tinggal' => $request->alamat,
+            'nomor_telepon' => $request->notelp,
+            'nomor_telepon_keluarga' => $request->notelp_keluarga,
+            'id_gunung' => $request->nama_gunung,
+            'tanggal_pendakian' => $request->tgl,
+            // 'foto_ktp' => $request->foto_ktp,
+            // 'surat_ket_sehat' => $request->surat_ket_sehat,
+
+        ]);
+        return redirect('/status');
     }
 
     /**

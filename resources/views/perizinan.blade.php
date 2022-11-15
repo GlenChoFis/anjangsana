@@ -93,7 +93,7 @@
 									@csrf
 									<div class="form-group">
 										<label for="nama">Nama</label>
-										<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan Nama">
+										<input type="text" name="nama_lengkap" id="nama" class="form-control" placeholder="Masukkan Nama">
 									</div>
 									</br>
 									<div class="form-group">
@@ -107,22 +107,22 @@
 									</div>
 									</br>
 									<div class="form-group">
-										<label for="alamat">Nomor Telepon</label>
-										<input type="text" name="notelp" id="umur" class="form-control" placeholder=" Masukkan Nomor">
+										<label for="notelp">Nomor Telepon</label>
+										<input type="text" name="notelp" id="notelp" class="form-control" placeholder=" Masukkan Nomor">
 									</div>
 									</br>
 									<div class="form-group">
-										<label for="alamat">Nomor Telepon Keluarga</label>
-										<input type="text" name="keltelp" id="umur" class="form-control" placeholder=" Masukkan Nomor">
+										<label for="notelp_keluarga">Nomor Telepon Keluarga</label>
+										<input type="text" name="notelp_keluarga" id="notelp" class="form-control" placeholder=" Masukkan Nomor">
 									</div>
 									</br>
 									<!-- <div class="form-group">
 										<label for="exampleDataList" class="form-label">Pilih gunung yang ingin didaki</label>
 										<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder=" Ketik untuk mencari...">
 											<datalist id="datalistOptions">
-												@foreach ($gunungs as $gunung)
+												{{-- @foreach ($gunungs as $gunung)
 												<option value="{{ $gunung->id }}">{{ $gunung->nama_gunung }}</option>
-												@endforeach
+												@endforeach --}}
 												<option value="Bromo">
 												<option value="Merbabu">
 												<option value="Merapi">
@@ -131,6 +131,16 @@
 												<option value="Sumbing">
 											</datalist>
 									</div> -->
+                                    <div class="form-group">
+										<label for="namagunung">Nama Gunung yang ingin di daki</label>
+										<select class="form-select" aria-label="Default select example" name="nama_gunung">
+                                            <option selected>Nama Gunung yang ingin di daki</option>
+                                            @foreach ($gunung as $g)
+												<option value="{{ $g->id }}">{{ $g->name }}</option>
+											@endforeach
+                                        </select>
+									</div>
+
 									</br>
 
 									<div class="form-group">
@@ -153,12 +163,6 @@
 
 									<br/>
 
-									<div class="form-group">
-										<label for="contohupload1">Foto Surat Pernyataan Pendakian</label>
-										<input type="file" class="form-control-file" id="contohupload3">
-									</div>
-
-									<br/>
 									<div>
 									<header class="major">
 									<button type="submit" class="btn btn-primary">Submit</button>
