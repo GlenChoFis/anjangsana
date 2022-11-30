@@ -134,7 +134,7 @@
                                     <div class="form-group">
 										<label for="namagunung">Nama Gunung yang ingin di daki</label>
 										<select class="form-select" aria-label="Default select example" name="nama_gunung">
-                                            <option selected>Nama Gunung yang ingin di daki</option>
+                                            <option selected disabled selected hidden>Nama Gunung yang ingin di daki</option>
                                             @foreach ($gunung as $g)
 												<option value="{{ $g->id }}">{{ $g->name }}</option>
 											@endforeach
